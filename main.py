@@ -157,7 +157,7 @@ def create_convlstm_model():
 
 if __name__ == "__main__":
     yolo_weights = "./checkpoints/yolov4-416"
-    cnn_weights = "./checkpoints/Ex4_3DCNN"
+    cnn_weights = ".Ex4_3DCNN"
     
 
     yolo = YOLO(iou=0.45, score=0.7, input_size=416, weights=yolo_weights)
